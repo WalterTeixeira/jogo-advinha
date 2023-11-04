@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,500;0,700;1,500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="screen1">
+        <h1>Jogo da Adivinhação</h1>
+        <p>adivinhe um número entre 0 a 10</p>
+        <div class="boxHide">
+          <p class="text-error"></p>
+        </div>
+        <form>
+          <input id="inputNumber" type="number" />
+          <button id="btnTry">Tentar</button>
+        </form>
+      </div>
+
+      <div class="screen2 hide">
+        <h2>Acertou em 3 vezes</h2>
+        <button id="btnReset">Jogar novamente</button>
+      </div>
+    </main>
+    <footer>
+      <div class="wave">
+          <div class="wave" id="wave1"></div>
+          <div class="wave" id="wave2"></div>
+          <div class="wave" id="wave3"></div>
+          <div class="wave" id="wave4"></div>
+      </div>
+      <ul class="social_icon">
+      
+      <li><a href="https://github.com/WalterTeixeira"><ion-icon name="logo-github"></ion-icon></a></li>
+      <li><a href="www.linkedin.com/in/walter-teixeira-4a607a1a5"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+      </ul>
+      
+      <p>@2023 Walter Teixeira | Inspired by Rohit Kumawat</p>
+  </footer>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>  
+    
+    
+
+    <script src="script.js"></script>
+  </body>
+</html>
